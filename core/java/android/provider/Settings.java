@@ -2434,7 +2434,37 @@ public final class Settings {
          * @hide
          */
         public static final String POWER_MENU_SILENT_ENABLED = "power_menu_silent_enabled";
-        
+
+        /**
+         * HALO being minimal.
+         * @hide
+         */
+        public static final String HALO_STYLE = "halo_style";
+
+        /**
+         * HALO speech bubble color
+         * @hide
+         */
+        public static final String HALO_BUBBLE_COLOR = "halo_bubble_color";
+
+        /**
+         * HALO speech bubble text color
+         * @hide
+         */
+        public static final String HALO_BUBBLE_TEXT_COLOR = "halo_bubble_text_color";
+
+        /**
+         * HALO circle bg color
+         * @hide
+         */
+        public static final String HALO_CIRCLE_COLOR = "halo_circle_color";
+
+        /**
+         * AutoHide CombinedBar on tablets.
+         * @hide
+         */
+        public static final String COMBINED_BAR_AUTO_HIDE = "combined_bar_auto_hide";
+
         /**
          * Display style of AM/PM next to clock in status bar
          * 0: Normal display (Eclair stock)
