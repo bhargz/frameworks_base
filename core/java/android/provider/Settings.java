@@ -2385,12 +2385,6 @@ public final class Settings {
          * @hide
          */
         public static final String VOLBTN_MUSIC_CONTROLS = "volbtn_music_controls";
-                
-        /**
-         * Do you want popups/floating windows?
-         * @hide
-         */
-        public static final String WE_WANT_POPUPS = "we_want_popups";
 
         /**
          * Expanded desktop style (with status bar or without status bar)
