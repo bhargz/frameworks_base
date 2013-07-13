@@ -804,7 +804,11 @@ public class Halo extends FrameLayout implements Ticker.TickerCallback {
                                 tick(mLastNotificationEntry, gestureText, 0, 250);
 
                                 // Ping to notify the user we're back where we started
-                                mEffect.ping(mPaintHoloBlue, 0);
+                                if (mEnableColor) {
+                                    mEffect.ping(mPaintHolo, 0);
+                                } else {
+                                    mEffect.ping(mPaintHoloBlue, 0);
+                                }
                             } else {
                                 setIcon(mMarkerIndex);
 
