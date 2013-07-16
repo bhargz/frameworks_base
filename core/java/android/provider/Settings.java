@@ -2466,6 +2466,12 @@ public final class Settings {
         public static final String HALO_CIRCLE_COLOR = "halo_circle_color";
 
         /**
+         * HALO size fraction, default is 1.0f (normal)
+         * @hide
+         */
+        public static final String HALO_SIZE = "halo_size";
+
+        /**
          * AutoHide CombinedBar on tablets.
          * @hide
          */
