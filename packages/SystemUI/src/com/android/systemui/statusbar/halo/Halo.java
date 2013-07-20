@@ -823,7 +823,8 @@ public class Halo extends FrameLayout implements Ticker.TickerCallback {
                             } else if (deltaIndex > 0 && mGesture != Gesture.DOWN2) {
                                 mGesture = Gesture.DOWN2;
                                 gestureChanged = true;
-                                mEffect.setHaloOverlay(HaloProperties.Overlay.SILENCE, 1f);
+                                mEffect.setHaloOverlay(mTickerLeft ? HaloProperties.Overlay.SILENCE_LEFT
+                                        : HaloProperties.Overlay.SILENCE_RIGHT, 1f);
                                 gestureText = mContext.getResources().getString(R.string.halo_silence);
                             } 
                         }
